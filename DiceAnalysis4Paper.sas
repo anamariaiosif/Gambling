@@ -2,7 +2,7 @@
 *                                                                                          	*;
 * STUDY        : 	COCOA                                                 			    	*;
 *                                                                                          	*;
-* PROGRAM      : 	DiceAnalysis4Papper.sas                                                 		*;
+* PROGRAM      : 	DiceAnalysis4Paper.sas                                                 		*;
 *                                                                                       	*;
 * FUNCTION     : 	This is a program to import and analyze the Dice Data			                    *;
 * AUTHOR       : 	Ana-Maria Iosif 														*;		                                                               *;
@@ -13,9 +13,6 @@
 
 footnote "GAMBLING\Dice" ; 
  
-
-*keep subid group gender Group01 FSIQ AGE_yr age NumberGood NumberBad AllTrials NIH_FluidCog_Unadj; 
-
 *IMPORT DATA;
 
 proc IMPORT  out=data4paper
